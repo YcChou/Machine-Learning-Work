@@ -1,0 +1,15 @@
+input_length: 96
+output_length: 336
+data_path: ''
+epoch: 300
+batch_size: 512
+num_workers: 8
+loss_type: mae # mse or mae
+learning_rate: 0.001
+save_path: ''
+seed: 5000
+
+model:
+  input_size: 7
+  output_size: 7
+  hidden_size: 50
